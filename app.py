@@ -17,7 +17,7 @@ app.config['JSON_SORT_KEYS'] = False
 
 @app.route('/stream')
 def get_video2():
-    path = "Episodio 1x7.mp4" # nome do arquivo
+    path = "Episodio 1x7.mp4" # nome do arquivo ou caminho
     start = 0
     end = None
     file_size = os.stat(path).st_size
